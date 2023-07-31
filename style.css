@@ -194,3 +194,7 @@ body.dark-mode .nome-input #btnSaudar{
 body.dark-mode .links a{
     color: #ffffff;
 }
+
+body.dark-mode .links a:hover{
+    color: #8a91e7;
+}
