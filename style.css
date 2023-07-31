@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 2.5px;
+    transition: 1s all ease;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 5px;
+    transition: 1s all ease;
+}
+
+.nome-input{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nome-input #nome, #btnSaudar{
+    
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #333333;
+    
+}
+
+.nome-input #nome{
+    border-radius: 4px 0px 0px 4px;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+.nome-input #btnSaudar{
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #333333;
+    cursor: pointer;
+}
+
+.nome-input #btnSaudar:hover{
+    background-color: #c7c7c7;
+    transition: all 1s ease;
+}
+
+body.dark-mode .nome-input #nome{
+    border-color: white;
+    color: white;
+}
+
+body.dark-mode .nome-input #btnSaudar{
+    border-color: white;
+}
+
+
+
+
+
+
+.darkmode .linha{
+    background-color: #ffffff;
+}
+
+.dark-mode a{
+    color: #ffffff;
+}
+
+.subtitulo2{
+    font-size: 13px;
+    font-weight: 300;
+    
+}
+
+.subtitulo2 a{
+        color: #8a91e7;
+
+}
+
+.subtitulo2 strong{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.branco{
+    color: #ffffff;
+}
+
+.toggle{
+    display: flex;
+    color: #333333;
+    text-decoration: none;
+    border: 1px solid #333333;
+    background-color: transparent;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all ease;
+    margin-top: 20px;
+}
+
+.toggle i{
+    gap: 100px;
+}
+
+.toggle:hover{
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode2{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.dark-mode2:hover{
+    color: #333333;
+    background-color: rgb(242, 239, 255);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+}
+
+.anima{
+    transition: all 1s ease;
+    margin-left: 100px;
+    background-color: aliceblue;
+}
+
+.linha{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    justify-content: center;
+    height: 1px;
+    background-color: #333333;
+    transition: all 2s ease;
+}
+
+.relogio {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 05px;
+    justify-content: center;
+    transition: all 0.1s ease;
+}
