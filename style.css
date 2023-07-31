@@ -166,6 +166,10 @@ body.dark-mode .nome-input #btnSaudar{
     transition: all 2s ease;
 }
 
+body.dark-mode .linha{
+    background-color: #ffffff;
+}
+
 .relogio {
     display: flex;
     text-align: center;
@@ -196,5 +200,40 @@ body.dark-mode .links a{
 }
 
 body.dark-mode .links a:hover{
+    color: #8a91e7;
+}
+
+.doc{
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 600px;
+    padding: 0 10px;
+}
+
+.doc .subtitulo2{
+    font-weight: 500;
+}
+
+.doc .corpo{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.doc a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #8a91e7;
+}
+
+.doc a:hover{
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+
+body.dark-mode .doc a{
+    color: #8a91e7;
+}
+
+body.dark-mode .doc a:hover{
     color: #8a91e7;
 }
